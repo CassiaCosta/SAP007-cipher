@@ -1,0 +1,107 @@
+body {
+    background-image: url(/img/plano-de-fundo1.jpeg);
+    background-repeat: repeat;
+}
+
+.root h1 {
+    height: 100px;
+    color: white;
+    font-size: 70px;
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: gray;
+    margin: 25px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.root .welcome,
+.geral {
+    height: 435px;
+    color: white;
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: gray;
+    margin: 20px 100px;
+}
+
+.root .welcome h2{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.root .welcome h3 {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.root .welcome .buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.root .welcome .buttons button {
+    height: 60px;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.root .welcome .buttons #btnCodificar {
+    color: white;
+    background-color: red;
+}
+
+.root .welcome .buttons #btnDecodificar {
+    color: white;
+    background-color: green;
+}
+
+.geral .geralOffset {
+    margin-left: 25px;
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+.geral section .deslocamento {
+    height: 30px;
+    width: 140px;
+    border: none;
+    border-radius: 10px;
+}
+
+.geral section .deslocamentoD {
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+}
+
+.geral section .mensagem {
+    height: 300px;
+    width: 500px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.geral button {
+    height: 40px;
+    width: 100px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 7px;
+    margin-left: 25px;
+}
+
+#cifrar,
+#decifrar {
+    display: none;
+}

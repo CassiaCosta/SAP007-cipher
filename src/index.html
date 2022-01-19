@@ -1,14 +1,59 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="root" id="root">
+    <h1>Mensagens Confidenciais</h1>
+    <div class="welcome">
+      <h2> Seja Bem-Vinde, Usuárie! </h2>
+      <br><br>
+      <h3>M3NS4G3N5 C0NF1D3NC141S T3M 4 FUNC10N4L1D4D3 D3 C0D1F1C4R 3 D3C0D1F1C4R <br> M3N54G3N5 D3 T3XT0. C4S0
+        QU31R4
+        3NV14R UM4 M3NS4G3M S3CR3T4, C0D1F1QU3 4 <br> 5U4 M3N54G3M 4QU1 0U C4S0 QU31R4 D3C1FR4R UM4 M3NS4G3M <br>
+        S3CR3T4,
+        F4Ç4 1SS0
+        4QU1 T4MB3M.</h3>
+      <div class="buttons">
+        <button id="btnCodificar">Escrever mensagem secreta</button>
+        <button id="btnDecodificar">Decifrar mensagem secreta</button>
+      </div>
     </div>
-    <script src="index.js" type="module"></script>
-  </body>
+  </div>
+
+  <div class="geral" id="cifrar">
+    <section class="geralOffset">
+      <label>Digite o nível de codificação:</label>
+      <input class="deslocamento" id="deslocamentoC" type="number">
+    </section>
+
+    <section>
+      <input class="mensagem" id="mensagemC" type="text" placeholder="Escreva a sua mensagem aqui">
+    </section>
+
+    <button id="voltar"> voltar</button>
+    <button id="codificar">Codificar</button>
+  </div>
+
+  <div class="geral" id="decifrar">
+    <section class="geralOffset">
+      <label>Digite o nível de descodificação:</label>
+      <input class="deslocamentoD" id="deslocamentoD" type="number">
+    </section>
+
+    <section>
+      <input class="mensagem" id="mensagemD" type="text" placeholder="Escreva a sua mensagem aqui">
+    </section>
+    <button id="voltar"> voltar</button>
+    <button id="decodificar">Decodificar</button>
+  </div>
+
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>
