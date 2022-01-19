@@ -49,6 +49,7 @@ body {
     height: 60px;
     width: 300px;
     font-size: 20px;
+    border: none;
     border-radius: 10px;
 }
 
@@ -104,4 +105,9 @@ body {
 #cifrar,
 #decifrar {
     display: none;
+}
+
+.geral button:hover,
+.root .welcome .buttons button:hover {
+    opacity: 0.5;
 }
