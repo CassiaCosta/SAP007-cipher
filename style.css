@@ -1,0 +1,146 @@
+body {
+    background-image: url(/img/plano-de-fundo1.jpeg);
+    background-repeat: repeat;
+}
+
+header h1 {
+    height: 100px;
+    color: white;
+    font-size: 70px;
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: gray;
+    margin: 25px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.root,
+.general {
+    height: 435px;
+    color: white;
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: gray;
+    margin: 20px 100px;
+}
+
+.root h2{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.root h3 {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.root .rootButtons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.root .rootButtons button {
+    height: 60px;
+    width: 300px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.root .rootButtons #buttonEncode {
+    background-color: red;
+}
+
+.root .rootButtons #buttonDecode {
+    background-color: green;
+}
+
+.general .offset {
+    margin-left: 40px;
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+.general section #displacement1 {
+    height: 30px;
+    width: 140px;
+    border: none;
+    border-radius: 10px;
+}
+
+.general section #displacement2 {
+    height: 30px;
+    width: 110px;
+    border: none;
+    border-radius: 10px;
+}
+
+.general section .message,
+.general .generalMessage .place p {
+    height: 300px;
+    width: 500px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+/*.geral .generalMessage .place section{
+    margin-bottom: -10px
+}*/
+
+.general .generalMessage .place p {
+    opacity: 0.6;
+    font-size: 20px;
+    padding-top: 3px;
+    padding-left: 20px;
+}
+
+.general .generalMessage .place section #printLocationEncode {
+    background-color: red;
+}
+
+.general .generalMessage .place section #printLocationDecode {
+    background-color: green;
+}
+
+.general .generalMessage .place section {
+    display: flex;
+    justify-content: end;
+    margin-top: -312px;
+    margin-right: 40px;
+}
+
+.general .generalMessage .place .buttons button {
+    height: 40px;
+    width: 100px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 7px;
+    margin-left: 40px;
+}
+
+.general .generalMessage .place .buttons {
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+    margin-top: -19px;
+}
+
+#encodeLocation,
+#decodeLocation {
+    display: none;
+}
+
+.root .rootButtons button:hover,
+.general .buttons button:hover {
+    opacity: 0.8;
+}
