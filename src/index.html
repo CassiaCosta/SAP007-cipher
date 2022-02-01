@@ -7,50 +7,62 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 
+<header>
+  <h1>Mensagens Confidenciais</h1>
+</header>
+
 <body>
   <div class="root" id="root">
-    <h1>Mensagens Confidenciais</h1>
-    <div class="welcome" id="welcome">
-      <h2> Seja Bem-Vinde, Usuárie! </h2>
-      <br><br>
-      <h3>M3NS4G3N5 C0NF1D3NC141S T3M 4 FUNC10N4L1D4D3 D3 C0D1F1C4R 3 D3C0D1F1C4R <br> M3N54G3N5 D3 T3XT0. C4S0
-        QU31R4
-        3NV14R UM4 M3NS4G3M S3CR3T4, C0D1F1QU3 4 <br> 5U4 M3N54G3M 4QU1 0U C4S0 QU31R4 D3C1FR4R UM4 M3NS4G3M <br>
-        S3CR3T4,
-        F4Ç4 1SS0
-        4QU1 T4MB3M.</h3>
-      <div class="buttons">
-        <button id="btnCodificar">Escrever mensagem secreta</button>
-        <button id="btnDecodificar">Decifrar mensagem secreta</button>
-      </div>
+    <h2> Seja Bem-Vinde, Usuárie! </h2>
+    <br><br>
+    <h3>M3NS4G3N5 C0NF1D3NC141S T3M 4 FUNC10N4L1D4D3 D3 C0D1F1C4R 3 D3C0D1F1C4R <br> M3N54G3N5 D3 T3XT0. 3NV13 UM4
+      M3N54G3M CR1PT0GR4F4D4 3M M310 4 UM4 Z0N4 <br> D3 P3R1G0, TR0QU3 M3NS4G3N5 C0NF1D3NC14I5 C0M 53U P4RC31R0 D3
+      GU3RR4 <br> 0U
+      3QU1P3. D31X3 4 5U4 1M4G1N4Ç40 T3 L3V4R 40 35CR3V3R 0U D35V3ND4R <br> M3NS4G3N5 53CR3T4AS! </h3>
+    <div class="rootButtons">
+      <button id="buttonEncode">Escrever mensagem secreta</button>
+      <button id="buttonDecode">Decifrar mensagem secreta</button>
     </div>
   </div>
 
-  <div class="geral" id="cifrar">
-    <section class="geralOffset">
+  <div class="general" id="encodeLocation">
+    <section class="offset">
       <label>Digite o nível de codificação:</label>
-      <input class="deslocamento" id="deslocamentoC" type="number">
+      <input class="displacement" id="displacement1" type="tel" maxlength="3">
     </section>
 
-    <section>
-      <input class="mensagem" id="mensagemC" type="text" placeholder="Escreva a sua mensagem aqui">
+    <section class="generalMessage">
+      <input class="message" id="messageEncode" type="text" placeholder="Digite a sua mensagem aqui">
+      <div class="place">
+        <section>
+          <p id="printLocationEncode"> </p>
+        </section>
+        <div class="buttons">
+          <button id="return1"> voltar</button>
+          <button id="code1">Codificar</button>
+        </div>
+      </div>
     </section>
-
-    <button id="voltarC"> voltar</button>
-    <button id="codificar">Codificar</button>
   </div>
 
-  <div class="geral" id="decifrar">
-    <section class="geralOffset">
+  <div class="general" id="decodeLocation">
+    <section class="offset">
       <label>Digite o nível de decodificação:</label>
-      <input class="deslocamentoD" id="deslocamentoD" type="number">
+      <input class="displacement" id="displacement2" type="number">
     </section>
 
-    <section>
-      <input class="mensagem" id="mensagemD" type="text" placeholder="Escreva a sua mensagem aqui">
+    <section class="generalMessage">
+      <input class="message" id="messageDecode" type="text" placeholder="Digite a sua mensagem aqui">
+      <div class="place">
+        <section>
+          <p id="printLocationDecode"></p>
+        </section>
+        <div class="buttons">
+          <button id="return2"> voltar</button>
+          <button id="code2">Decodificar</button>
+        </div>
+      </div>
     </section>
-    <button id="voltarD"> voltar</button>
-    <button id="decodificar">Decodificar</button>
   </div>
 
   <script src="index.js" type="module"></script>
