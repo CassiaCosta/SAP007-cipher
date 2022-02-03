@@ -66,13 +66,6 @@ A interface permite ao usuário:
 - Inserir uma mensagem (texto) para ser decifrada.
 - Ver o resultado da mensagem decifrada.
 
-### "Deployar", instalar e executar
-
-- `REAME.md`: deve explicar como "deployar", instalar e executar a aplicação,
-  assim como uma introdução a aplicação, suas funcionalidades e as decisões que
-  foram tomadas.
-
-
 ## 6. Hacker Edition
 
 Além do critério principal, o projeto aceita os critérios de letras minúsculas e caracteres especiais como: espaço e pontuação.
